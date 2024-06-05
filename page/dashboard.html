@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="vh-100" style="background-color:  #E7F4FE;">
+<!-- navigation -->
+ <div class="row d-flex">
+    <div class="col"> 
+         
+        <nav class="navbar navbar-expand-lg" style="padding-top: 25px; padding-bottom: 25px; margin-bottom: 20px; background-color: #5CA5D9;; ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="dashboard.html" style="font-weight: bold; color: #ffffff; text-transform: uppercase;">Samabank</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="page3.html" style="color: #ffffff;">Compte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #ffffff;">Transaction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #ffffff;">Demande</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="page4.html" style="color: #ffffff;">Utilisateur</a>
+                        </li>
+                    </ul>
+                     <a href="../index.html"><button class="btn btn-logout" style="border-radius: 20px; background-color: #ffffff; color: #5CA5D9 ; border: 1px solid #5CA5D9;">Déconnexion</button></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+ </div>
+<!-- fin navigation -->
+
+
+<div class="container" style="border: 3px solid #5CA5D9;">
+ <!-- petite carte -->
+<div class="container mb-5"> <br>
+    <div class="row">
+      <div class="col-md-4 ">
+        <div class="card">
+          <div class="row ">
+            <div class="col-md-4">
+              <img src="../img/1.png" class="card-img" alt="...">
+            </div>
+            <div class="col">
+              <div class="card-body">
+                <h5 class="card-title">1000</h5>
+                <p class="card-text">GESTIONNAIRE</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="../img/2.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">1000</h5>
+                <p class="card-text">CLIENT</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="../img/3.png" class="card-img" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">10,000,000 FCFA</h5>
+                <p class="card-text">TRANSACTIONS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!-- fin petite carte -->
+ <br>
+  <!-- Tableau -->
+<div class="container d-flex justify-content-evenly">
+    <div class="row">
+        <div class="col">
+            <h6>LISTE GESTIONNAIRE</h6>
+            <table class="table table-bordered table-striped" style="height: 350px; width: 400px; border: black solid 2px;">
+                
+                <thead style="background-color: #5CA5D9; color: white;">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nom complet</th>
+                    <th scope="col">Téléphone</th>
+                    <th scope="col">Adresse</th>
+                  </tr>
+                </thead>
+                <tbody>
+                 
+                   
+                  <thead style="background-color: #ccf0fa;">
+                    <th scope="row">1</th>
+                    <td>Cheikh Diop</td>
+                    <td>77 000 00 00</td>
+                    <td>DAKAR</td>
+                  </thead>
+                  <thead style="background-color: #ccf0fa;">
+                    <th scope="row">2</th>
+                    <td>Cheikh Diop</td>
+                    <td>77 000 00 00</td>
+                    <td>DAKAR</td>
+                  </thead>
+                  <thead style="background-color: #ccf0fa;">
+                    <th scope="row">3</th>
+                    <td>Cheikh Diop</td>
+                    <td>77 000 00 00</td>
+                    <td>DAKAR</td>
+                  </thead>
+                  <thead style="background-color: #ccf0fa;">
+                    <td scope="row">4</td>
+                    <td>Cheikh Diop</td>
+                    <td>77 000 00 00</td>
+                    <td>DAKAR</td>
+                  </thead>
+                  <thead style="background-color: #ccf0fa;">
+                    <th scope="row">5</th>
+                    <td>Cheikh Diop</td>
+                    <td>77 000 00 00</td>
+                    <td>DAKAR</td>
+                  </thead>
+                </tbody>
+              </table>
+              
+              
+        </div>
+       
+        <!-- autre tableau -->
+        <div class="col">
+            <h6>LISTE CLIENT</h6>
+            <table class="table table-bordered table-striped" style="height: 350px; width: 400px; border: black solid 2px;">
+                
+                <thead style="background-color: #5CA5D9; color: white;">
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nom complet</th>
+                    <th scope="col">Téléphone</th>
+                    <th scope="col">Adresse</th>
+                  </tr>
+                </thead>
+                <tbody>
+                 
+                   
+                  <thead style="background-color: #ccf0fa;">
+                    <th scope="row">1</th>
+                    <td>Cheikh Diop</td>
+                    <td>77 000 00 00</td>
+                    <td>DAKAR</td>
+                  </thead>
+                  <thead style="background-color: #ccf0fa;">
+                    <th scope="row">2</th>
+                    <td>Cheikh Diop</td>
+                    <td>77 000 00 00</td>
+                    <td>DAKAR</td>
+                  </thead>
+                  <thead style="background-color: #ccf0fa;">
+                    <th scope="row">3</th>
+                    <td>Cheikh Diop</td>
+                    <td>77 000 00 00</td>
+                    <td>DAKAR</td>
+                  </thead>
+                  <thead style="background-color: #ccf0fa;">
+                    <th scope="row">4</th>
+                    <td>Cheikh Diop</td>
+                    <td>77 000 00 00</td>
+                    <td>DAKAR</td>
+                  </thead>
+                  <thead style="background-color: #ccf0fa;">
+                    <th scope="row">5</th>
+                    <td>Cheikh Diop</td>
+                    <td>77 000 00 00</td>
+                    <td>DAKAR</td>
+                  </thead>
+                </tbody>
+              </table>
+              
+              
+        </div>
+
+    </div>
+</div>
+</div>
+
+
+    <script src="../js/bootstrap.js"></script>
+</body>
+</html>
